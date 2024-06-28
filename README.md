@@ -32,74 +32,33 @@
 
 ----------
 
-## FOR VPS USER
-
-* apt update && apt upgrade -y
-* apt install nodejs imagemagick ffmpeg -y
-* node -v 
-* if the version is still under 17, use this step
-* curl -s https://deb.nodesource.com/setup_19.x | sudo bash
-* apt-get install -y nodejs
-
-----------
-
 ```bash
-git clone https://github.com/ImYanXiao/Elaina-MultiDevice
-cd Elaina-MultiDevice
-npm install
-npm update
-```
+before executing these commands in termux... extract the bot file in ur termux.
+
+apt update
+apt upgrade
+pkg update && pkg upgrade
+pkg install bash
+pkg install libwebp
+pkg install git -y
+pkg install nodejs -y 
+pkg install ffmpeg -y 
+pkg install wget
+pkg install imagemagick -y
+pkg install yarn
+termux-setup-storage
+cd /sdcard
+cd cheemsbot14
+yarn install
+npm start
 
 ---------
 
 ## Run ⏳
 
 ```bash
-node .
+npm start
 ```
-
----------
-
-## ```Arguments node . [--options] [<session name>]```
-
-## `--pconly`
-* If that chat not from private bot, bot will ignore
-
-## `--gconly`
-* If that chat not from group, bot will ignore
-
-## `--swonly`
-* If that chat not from status, bot will ignore
-
-## `--prefix <prefixes>`
-* `prefixes` are seperated by each character
-Set prefix
-
-### `--db <your mongodb url>`
-
-Open the package.json file and fill in your mongodb url in the `mongodb: --db mongodb url` section!
-
-## `--server`
-* Used for [heroku](https://heroku.com/) or scan through website
-
-## `--restrict`
-* Enables restricted plugins (which can lead your number to be **banned** if used too often)
-* Group Administration `add, kick`
-
-## `--img`
-* Enable image inspector through terminal
-
-## `--autoread`
-* If enabled, all incoming messages will be marked as read
-
-## `--nyimak`
-* No bot, just print received messages and add users to database
-
-## `--test`
-* **Development** Testing Mode 
-
-## `--self`
-* **Only Owner & Bot** 
 
 ---------
 
