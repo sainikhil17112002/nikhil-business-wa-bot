@@ -29,8 +29,9 @@
 - ✔️ | Anime 
 - ✔️ | Premium 
 - ✔️ | Tools
-
+  
 ----------
+
 
 ```bash
 before executing these commands in termux... extract the bot file in ur termux.
