@@ -53,7 +53,6 @@ cd cheemsbot14
 yarn install
 npm start
 
----------
 ```
 
 ## Run ⏳
