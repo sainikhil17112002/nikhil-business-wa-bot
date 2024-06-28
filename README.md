@@ -54,6 +54,7 @@ yarn install
 npm start
 
 ---------
+```
 
 ## Run ⏳
 
